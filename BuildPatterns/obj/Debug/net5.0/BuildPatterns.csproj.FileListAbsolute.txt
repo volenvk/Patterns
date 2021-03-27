@@ -1,0 +1,12 @@
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/bin/Debug/net5.0/BuildPatterns.deps.json
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/bin/Debug/net5.0/BuildPatterns.dll
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/bin/Debug/net5.0/ref/BuildPatterns.dll
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/bin/Debug/net5.0/BuildPatterns.pdb
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/obj/Debug/net5.0/BuildPatterns.csprojAssemblyReference.cache
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/obj/Debug/net5.0/BuildPatterns.GeneratedMSBuildEditorConfig.editorconfig
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/obj/Debug/net5.0/BuildPatterns.AssemblyInfoInputs.cache
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/obj/Debug/net5.0/BuildPatterns.AssemblyInfo.cs
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/obj/Debug/net5.0/BuildPatterns.csproj.CoreCompileInputs.cache
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/obj/Debug/net5.0/BuildPatterns.dll
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/obj/Debug/net5.0/ref/BuildPatterns.dll
+/home/valeriykov/RiderProjects/Paterns/BuildPatterns/obj/Debug/net5.0/BuildPatterns.pdb
