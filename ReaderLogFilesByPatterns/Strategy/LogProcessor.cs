@@ -1,4 +1,4 @@
-namespace AllPatternsByLogFiles.Strategy
+namespace ReaderLogFilesByPatterns.Strategy
 {
     using System;
     using System.Collections.Generic;
@@ -7,5 +7,23 @@ namespace AllPatternsByLogFiles.Strategy
     public class LogProcessor
     {
         private readonly Func<List<LogEntry>> _logImporter;
+
+        public LogProcessor(Func<List<LogEntry>> logImporter)
+        {
+            _logImporter = logImporter;
+        }
+
+        public void ProcessLogs()
+        {
+            foreach (var logEntry in _logImporter.Invoke())
+            {
+                SaveLogEntry(logEntry);
+            }
+        }
+
+        private void SaveLogEntry(LogEntry entry)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

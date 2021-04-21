@@ -1,4 +1,4 @@
-namespace AllPatternsByLogFiles.Models
+namespace ReaderLogFilesByPatterns.Models
 {
     public enum Severety
     {

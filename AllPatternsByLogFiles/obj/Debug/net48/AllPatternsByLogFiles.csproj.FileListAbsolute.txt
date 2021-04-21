@@ -1,9 +1,0 @@
-/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/bin/Debug/net48/AllPatternsByLogFiles.exe.config
-/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/bin/Debug/net48/AllPatternsByLogFiles.exe
-/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/bin/Debug/net48/AllPatternsByLogFiles.pdb
-/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/obj/Debug/net48/AllPatternsByLogFiles.csprojAssemblyReference.cache
-/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/obj/Debug/net48/AllPatternsByLogFiles.AssemblyInfoInputs.cache
-/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/obj/Debug/net48/AllPatternsByLogFiles.AssemblyInfo.cs
-/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/obj/Debug/net48/AllPatternsByLogFiles.csproj.CoreCompileInputs.cache
-/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/obj/Debug/net48/AllPatternsByLogFiles.exe
-/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/obj/Debug/net48/AllPatternsByLogFiles.pdb
