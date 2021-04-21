@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/valeriykov/workspace/Paterns/AllPaternsByLogFiles/AllPaternsByLogFiles.csproj",
-    "projectName": "AllPaternsByLogFiles",
-    "projectPath": "/home/valeriykov/workspace/Paterns/AllPaternsByLogFiles/AllPaternsByLogFiles.csproj",
-    "outputPath": "/home/valeriykov/workspace/Paterns/AllPaternsByLogFiles/obj/",
+    "projectUniqueName": "/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/AllPatternsByLogFiles.csproj",
+    "projectName": "AllPatternsByLogFiles",
+    "projectPath": "/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/AllPatternsByLogFiles.csproj",
+    "outputPath": "/home/valeriykov/workspace/Paterns/AllPatternsByLogFiles/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "net48"

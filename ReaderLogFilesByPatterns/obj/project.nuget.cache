@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0SUoxbDg2BBtFI/B7rxQhDops+dL2n78U90/CR15Cg5D7ntpYqIrZRZAavV7A1n78VhL34Dg0cxauVZNIZ36yA==",
+  "success": true,
+  "projectFilePath": "/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/ReaderLogFilesByPatterns.csproj",
+  "expectedPackageFiles": [
+    "/home/valeriykov/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "/home/valeriykov/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.0/microsoft.aspnetcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
