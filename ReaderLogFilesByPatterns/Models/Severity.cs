@@ -1,6 +1,6 @@
 namespace ReaderLogFilesByPatterns.Models
 {
-    public enum Severety
+    public enum Severity
     {
         Error,
         Warning,

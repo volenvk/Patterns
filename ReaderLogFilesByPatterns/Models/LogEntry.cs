@@ -5,7 +5,7 @@ namespace ReaderLogFilesByPatterns.Models
     public class LogEntry
     {
         public DateTime DateTime { get; set; }
-        public Severety Severety { get; set; }
+        public Severity Severety { get; set; }
         public string Message { get; set; }
     }
 }
