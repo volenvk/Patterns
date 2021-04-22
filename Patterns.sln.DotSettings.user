@@ -1,4 +1,7 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/home/valeriykov/.nuget/packages/wcfserviceproxy/2.2.1/lib/portable-net45+netcore45+MonoAndroid1+MonoTouch1/EyeCatch.WCF.ServiceProxy.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4877b05a_002Df1ff_002D4a9e_002Da19c_002Dfc2911cbf9fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestPrototype" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::5F03C924-9B53-48E7-BDCE-C1D6EA499467::.NETCoreApp,Version=v5.0::PatternTests.Prototype.PrototypeTest.TestPrototype&lt;/TestId&gt;
