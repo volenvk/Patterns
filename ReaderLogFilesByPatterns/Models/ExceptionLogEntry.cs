@@ -1,9 +1,12 @@
-using System;
-
 namespace ReaderLogFilesByPatterns.Models
 {
-    public class ExceptionLogEntry
+    using Interfaces;
+
+    public class ExceptionLogEntry : LogEntry
     {
-        public string Message {get; set;}
+        public override void Accept(ILogEntryVisitor logEntryVisitor)
+        {
+            logEntryVisitor.Visit(this);
+        }
     }
 }
