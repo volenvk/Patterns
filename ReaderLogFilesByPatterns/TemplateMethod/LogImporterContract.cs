@@ -1,5 +1,6 @@
 namespace ReaderLogFilesByPatterns.TemplateMethod
 {
+    using System;
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
     using System.Diagnostics.Contracts;
@@ -14,14 +15,14 @@ namespace ReaderLogFilesByPatterns.TemplateMethod
             Contract.Ensures(
                 Contract.ValueAtReturn(out position) >=
                 Contract.OldValue(position));
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
         
         protected override LogEntry ParseLogEntry(string stringEntry)
         {
             Contract.Requires(stringEntry != null);
             Contract.Ensures(Contract.Result<LogEntry>() != null);
-            throw new System.NotImplementedException();
+            throw new NotImplementedException();
         }
     }
 }

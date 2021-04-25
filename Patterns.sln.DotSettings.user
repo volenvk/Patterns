@@ -4,6 +4,6 @@
 &lt;/AssemblyExplorer&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4877b05a_002Df1ff_002D4a9e_002Da19c_002Dfc2911cbf9fd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestPrototype" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::5F03C924-9B53-48E7-BDCE-C1D6EA499467::.NETCoreApp,Version=v5.0::PatternTests.Prototype.PrototypeTest.TestPrototype&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::55EBA422-54D7-42FC-9EEF-3C5967D94800::.NETCoreApp,Version=v3.1::ReaderLogFiles.Tests.Tests.TestDatabaseLogSaver&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
