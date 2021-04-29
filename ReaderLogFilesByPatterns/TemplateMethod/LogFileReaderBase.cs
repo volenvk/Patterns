@@ -60,5 +60,7 @@ namespace ReaderLogFilesByPatterns.TemplateMethod
                 _stream.Value.Close();
             }
 		}
-	}
+
+        public abstract IEnumerable<LogEntry> ReadLogEntry();
+    }
 }
