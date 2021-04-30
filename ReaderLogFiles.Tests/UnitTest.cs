@@ -6,6 +6,7 @@ namespace ReaderLogFiles.Tests
     using System.IO;
     using System.Linq;
     using ReaderLogFilesByPatterns.Command;
+    using ReaderLogFilesByPatterns.FactoryMethod;
     using ReaderLogFilesByPatterns.Models;
     using ReaderLogFilesByPatterns.State;
     using ReaderLogFilesByPatterns.TemplateMethod;
@@ -73,6 +74,16 @@ namespace ReaderLogFiles.Tests
 
             // Assert
             Assert.Pass();
+        }
+
+        [Test]
+        public void TestTemplateMethod()
+        {
+            // Act
+            var p = ProductFactory.Create<ConcreteProduct>();
+            
+            // Assert
+            Assert.IsNotNull(p);
         }
     }
 }

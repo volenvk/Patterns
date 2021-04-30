@@ -3,7 +3,9 @@ using ReaderLogFilesByPatterns.Models;
 
 namespace ReaderLogFilesByPatterns.TemplateMethod
 {
-	public abstract class LogImporter
+	using FactoryMethod;
+
+	public abstract class LogImporter : LogReaderBase
 	{
 		protected abstract LogEntry ParseLogEntry(string stringEntry);
 

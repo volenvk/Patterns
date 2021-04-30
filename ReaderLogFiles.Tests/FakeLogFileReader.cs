@@ -24,5 +24,10 @@ namespace ReaderLogFiles.Tests
         {
             yield return new SimpleLogEntry();
         }
+
+        protected override Stream OpenLogSource()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
