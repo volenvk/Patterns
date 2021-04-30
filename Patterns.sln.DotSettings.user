@@ -6,5 +6,6 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::55EBA422-54D7-42FC-9EEF-3C5967D94800::.NETCoreApp,Version=v3.1::ReaderLogFiles.Tests.Tests.TestDatabaseLogSaver&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::55EBA422-54D7-42FC-9EEF-3C5967D94800::.NETCoreApp,Version=v3.1::ReaderLogFiles.Tests.Tests.TestFileLogExport&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::55EBA422-54D7-42FC-9EEF-3C5967D94800::.NETCoreApp,Version=v3.1::ReaderLogFiles.Tests.Tests.TestCommand&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

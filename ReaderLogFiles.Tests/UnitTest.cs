@@ -5,6 +5,7 @@ namespace ReaderLogFiles.Tests
     using System;
     using System.IO;
     using System.Linq;
+    using ReaderLogFilesByPatterns.Command;
     using ReaderLogFilesByPatterns.Models;
     using ReaderLogFilesByPatterns.State;
     using ReaderLogFilesByPatterns.TemplateMethod;
@@ -57,6 +58,19 @@ namespace ReaderLogFiles.Tests
                 DateTime = DateTime.Now
             });
             
+            // Assert
+            Assert.Pass();
+        }
+
+        [Test]
+        public void TestCommand()
+        {
+            var receiver = new Receiver();
+            var invoker = new Invoker(receiver.Read);
+
+            // Act
+            invoker.Invoke();
+
             // Assert
             Assert.Pass();
         }
