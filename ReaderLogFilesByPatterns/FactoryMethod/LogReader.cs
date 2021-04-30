@@ -16,6 +16,7 @@ namespace ReaderLogFilesByPatterns.FactoryMethod
             Func<Stream> factory = () => new FileStream(fileName, FileMode.Open);
             return new LogReader(factory);
         }
+        
         public static LogReader FromStream(Stream stream)
         {
             Func<Stream> factory = () => stream;

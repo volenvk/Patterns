@@ -5,6 +5,8 @@ namespace ReaderLogFiles.Tests
     using System;
     using System.IO;
     using System.Linq;
+    using System.Net.Mail;
+    using ReaderLogFilesByPatterns.Builder;
     using ReaderLogFilesByPatterns.Command;
     using ReaderLogFilesByPatterns.FactoryMethod;
     using ReaderLogFilesByPatterns.Models;
@@ -84,6 +86,12 @@ namespace ReaderLogFiles.Tests
             
             // Assert
             Assert.IsNotNull(p);
+        }
+
+        [Test]
+        public void TestBuilder()
+        {
+            
         }
     }
 }
