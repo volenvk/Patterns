@@ -5,10 +5,9 @@ namespace ReaderLogFiles.Tests
     using System;
     using System.IO;
     using System.Linq;
-    using System.Net.Mail;
-    using ReaderLogFilesByPatterns.Builder;
     using ReaderLogFilesByPatterns.Command;
-    using ReaderLogFilesByPatterns.FactoryMethod;
+	using ReaderLogFilesByPatterns.Composite;
+	using ReaderLogFilesByPatterns.FactoryMethod;
     using ReaderLogFilesByPatterns.Models;
     using ReaderLogFilesByPatterns.State;
     using ReaderLogFilesByPatterns.TemplateMethod;
@@ -57,8 +56,8 @@ namespace ReaderLogFiles.Tests
             logExport.Export(new SimpleLogEntry
             {
                 Message = "Test",
-                Severity = Severity.Information,
-                DateTime = DateTime.Now
+                Severity = Severity.Warning,
+                EntryDateTime = DateTime.Now
             });
             
             // Assert
@@ -89,9 +88,30 @@ namespace ReaderLogFiles.Tests
         }
 
         [Test]
-        public void TestBuilder()
+        public void TestComposite()
         {
-            
+            var rule = LogRuleFactory.RejectOldEntriesWithLowSeverity(TimeSpan.FromDays(7));
+            LogEntry logEntry = new ExceptionLogEntry()
+            {
+                Severity = Severity.Warning,
+                EntryDateTime = DateTime.Now.AddDays(-5),
+                Message = "Test"
+            };
+
+            // Assert
+            Assert.IsTrue(rule.ShouldImport(logEntry));
+            logEntry = new SimpleLogEntry(){ EntryDateTime = DateTime.Now.AddDays(-10) };
+            // Assert
+            Assert.IsFalse(rule.ShouldImport(logEntry));
+            logEntry.Severity = Severity.Critical;
+            // Assert
+            Assert.IsTrue(rule.ShouldImport(logEntry));
+            logEntry = new SimpleLogEntry()
+            {
+                EntryDateTime = DateTime.Now.AddDays(-5),
+                Severity = Severity.Debug
+            };
+            Assert.IsTrue(rule.ShouldImport(logEntry));
         }
     }
 }
