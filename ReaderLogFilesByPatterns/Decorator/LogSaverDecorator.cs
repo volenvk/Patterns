@@ -5,7 +5,7 @@ using ReaderLogFilesByPatterns.Models;
 
 namespace ReaderLogFilesByPatterns.Decorator
 {
-    public abstract class LogSaverDecorator
+    public abstract class LogSaverDecorator : ILogSavers
     {
         protected readonly ILogSavers _decorate;
 
