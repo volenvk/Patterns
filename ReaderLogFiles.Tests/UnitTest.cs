@@ -105,7 +105,7 @@ namespace ReaderLogFiles.Tests
             Assert.IsFalse(rule.ShouldImport(logEntry));
             logEntry.Severity = Severity.Critical;
             // Assert
-            Assert.IsTrue(rule.ShouldImport(logEntry));
+            Assert.IsFalse(rule.ShouldImport(logEntry));
             logEntry = new SimpleLogEntry()
             {
                 EntryDateTime = DateTime.Now.AddDays(-5),
