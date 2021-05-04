@@ -1,0 +1,9 @@
+/home/valeriykov/workspace/Paterns/DesignPatterns/bin/Debug/netstandard2.0/DesignPatterns.deps.json
+/home/valeriykov/workspace/Paterns/DesignPatterns/bin/Debug/netstandard2.0/DesignPatterns.dll
+/home/valeriykov/workspace/Paterns/DesignPatterns/bin/Debug/netstandard2.0/DesignPatterns.pdb
+/home/valeriykov/workspace/Paterns/DesignPatterns/obj/Debug/netstandard2.0/DesignPatterns.csprojAssemblyReference.cache
+/home/valeriykov/workspace/Paterns/DesignPatterns/obj/Debug/netstandard2.0/DesignPatterns.AssemblyInfoInputs.cache
+/home/valeriykov/workspace/Paterns/DesignPatterns/obj/Debug/netstandard2.0/DesignPatterns.AssemblyInfo.cs
+/home/valeriykov/workspace/Paterns/DesignPatterns/obj/Debug/netstandard2.0/DesignPatterns.csproj.CoreCompileInputs.cache
+/home/valeriykov/workspace/Paterns/DesignPatterns/obj/Debug/netstandard2.0/DesignPatterns.dll
+/home/valeriykov/workspace/Paterns/DesignPatterns/obj/Debug/netstandard2.0/DesignPatterns.pdb

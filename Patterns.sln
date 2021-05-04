@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderLogFilesByPatterns", "ReaderLogFilesByPatterns\ReaderLogFilesByPatterns.csproj", "{998EAB6A-0459-465C-A0A1-558A8E484919}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderLogFiles.Tests", "ReaderLogFiles.Tests\ReaderLogFiles.Tests.csproj", "{55EBA422-54D7-42FC-9EEF-3C5967D94800}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{C74998DF-D1B1-45C3-89DA-F35A24452298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternsTests", "DesignPatternsTests\DesignPatternsTests.csproj", "{4460F92D-6DE6-4431-BC3A-01247B1D8C6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,13 @@ Global
 		{55EBA422-54D7-42FC-9EEF-3C5967D94800}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55EBA422-54D7-42FC-9EEF-3C5967D94800}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55EBA422-54D7-42FC-9EEF-3C5967D94800}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C74998DF-D1B1-45C3-89DA-F35A24452298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C74998DF-D1B1-45C3-89DA-F35A24452298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C74998DF-D1B1-45C3-89DA-F35A24452298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C74998DF-D1B1-45C3-89DA-F35A24452298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4460F92D-6DE6-4431-BC3A-01247B1D8C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4460F92D-6DE6-4431-BC3A-01247B1D8C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4460F92D-6DE6-4431-BC3A-01247B1D8C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4460F92D-6DE6-4431-BC3A-01247B1D8C6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
