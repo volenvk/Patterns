@@ -6,7 +6,7 @@ namespace DesignPatterns.Decorator
     {
         public BaseBeverage Beverage {get;}
 
-        public BaseCondiment(BaseBeverage beverage)
+        protected BaseCondiment(BaseBeverage beverage)
         {
             Beverage = beverage;
         }

@@ -14,8 +14,13 @@ namespace DesignPatterns.Decorator
         public static double GetCost(this BaseCondiment condiment, PortionSize size)
         {
             var visitor = new BeverageVisitor(condiment);
-            
-            return condiment.Beverage.GetCost(size) + condiment.Price + visitor.PortionCost.GetCost(size);
+
+            if (condiment.Beverage is BaseCondiment rootCondiment)
+            {
+                return  rootCondiment.GetCost(size) + condiment.Price + visitor.PortionCost.GetCost(size);
+            }
+
+            return  condiment.Beverage.GetCost(size) + condiment.Price + visitor.PortionCost.GetCost(size);
         }
     }
 }

@@ -29,7 +29,7 @@ namespace DesignPatterns.Decorator
 
         private double GetCost()
         {
-            return ((double)_beverage.Price * PERCENT) / 100;
+            return _beverage.Price * PERCENT / 100;
         }
     }
 }

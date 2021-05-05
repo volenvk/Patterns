@@ -5,7 +5,7 @@ namespace DesignPatterns.Decorator
     public class CondimentPortionSizeCost : IPortionSizeCost
     {
 		private readonly BaseCondiment _condiment;
-        private const double PERCENT = 5;
+        private const double PERCENT = 10;
 
 		public CondimentPortionSizeCost(BaseCondiment condiment)
         {
@@ -29,7 +29,7 @@ namespace DesignPatterns.Decorator
 
         private double GetCost()
         {
-            return ((double)_condiment.Price * PERCENT) / 100;
+            return _condiment.Price * PERCENT / 100;
         }
     }
 }
