@@ -6,9 +6,15 @@ namespace DesignPatterns.Decorator
     {
 		private const double _price = 0.20;
 
-		public Soy(BaseBeverage beverage, IPortionSizeCost portionSizeCost) : base(beverage, portionSizeCost) {}
 		public override string Description => Beverage.Description + ", Soy";
 
-		protected override double Price => _price;
+		public override double Price => _price;
+
+		public Soy(BaseBeverage beverage) : base(beverage) {}
+
+		public override void Accept(IBeverageVisitor priceVisitor)
+		{
+			priceVisitor.Visit(this);
+		}
 	}
 }
