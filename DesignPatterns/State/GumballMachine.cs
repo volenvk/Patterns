@@ -4,41 +4,41 @@ namespace DesignPatterns.State
 
     public class GumballMachine
     {
-        private int _count;
-        private IState _state;
+        protected int GumballCount;
+        protected IState State;
 
         public GumballMachine(int count)
         {
-            _count = count;
-            _state = new NoQuarterState(this);
+            GumballCount = count;
+            State = new NoQuarterState(this);
         }
         
         public void SetState(IState state)
         {
-            _state = state;
+            State = state;
         }
 
-        public bool HasBolls() => _count > 0;
+        public bool HasBolls() => GumballCount > 0;
 
         public void InsertQuarter()
         {
-            _state.InsertQuarter();
+            State.InsertQuarter();
         }
 
         public void EjectQuarter()
         {
-            _state.EjectQuarter();
+            State.EjectQuarter();
         }
 
         public void TurnCrank()
         {
-            _state.TurnCrank();
-            _state.Dispense();
+            State.TurnCrank();
+            State.Dispense();
         }
 
         public void ReleaseBall()
         {
-            _count--;
+            GumballCount--;
             Console.WriteLine("Release ball!");
         }
     }

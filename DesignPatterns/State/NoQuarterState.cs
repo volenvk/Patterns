@@ -36,5 +36,10 @@ namespace DesignPatterns.State
         {
             throw new InvalidOperationException("You need to pay.");
         }
+
+        public override string ToString()
+		{
+			return "No quarter state.";		
+        }
     }
 }

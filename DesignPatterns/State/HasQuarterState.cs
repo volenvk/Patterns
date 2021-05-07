@@ -37,5 +37,10 @@ namespace DesignPatterns.State
         {
             throw new InvalidOperationException("No gumball dispensed.");
         }
+
+        public override string ToString()
+		{
+			return "Has quarter state.";
+		}
     }
 }

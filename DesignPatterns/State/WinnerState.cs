@@ -41,5 +41,10 @@ namespace DesignPatterns.State
             
             _machine.SetState(new SoldOutState(_machine));
         }
+
+        public override string ToString()
+		{
+			return "Winner state.";		
+        }
     }
 }

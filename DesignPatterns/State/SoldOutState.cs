@@ -30,5 +30,10 @@ namespace DesignPatterns.State
         {
             throw new InvalidOperationException("No gumballs.");
         }
+
+		public override string ToString()
+		{
+			return "Sold out state.";
+		}	
     }
 }
