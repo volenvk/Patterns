@@ -1,5 +1,6 @@
 
 /.idea/
+/.vscode/
 /DesignPatterns/bin/
 /DesignPatterns/obj/
 /DesignPatternsTests/bin/
@@ -8,5 +9,5 @@
 /BuildPatterns/obj/
 /PatternTests/bin/
 /PatternTests/obj/
-ReaderLogFilesByPatterns/obj/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.csprojAssemblyReference.cache
-/.vscode/
+/ReaderLogFilesByPatterns/obj/
+/ReaderLogFilesByPatterns/bin/
