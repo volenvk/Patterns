@@ -1,9 +1,0 @@
-/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/obj/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.csprojAssemblyReference.cache
-/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/obj/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.AssemblyInfoInputs.cache
-/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/obj/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.AssemblyInfo.cs
-/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/obj/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.csproj.CoreCompileInputs.cache
-/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/bin/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.deps.json
-/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/bin/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.dll
-/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/bin/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.pdb
-/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/obj/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.dll
-/home/valeriykov/workspace/Paterns/ReaderLogFilesByPatterns/obj/Debug/netcoreapp3.1/ReaderLogFilesByPatterns.pdb
