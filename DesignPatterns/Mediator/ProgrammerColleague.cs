@@ -2,9 +2,9 @@ namespace DesignPatterns.Mediator
 {
     using System;
 
-    public class ProgrammerColleague : Colleague
+    public class ProgrammerColleague : BaseColleague
     {
-        public ProgrammerColleague(Mediator mediator) : base(mediator)
+        public ProgrammerColleague(BaseMediator mediator) : base(mediator)
         {
         }
 

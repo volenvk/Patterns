@@ -2,9 +2,9 @@ namespace DesignPatterns.Mediator
 {
     using System;
 
-    public class QAColleague : Colleague
+    public class QaColleague : BaseColleague
     {
-        public QAColleague(Mediator mediator) : base(mediator)
+        public QaColleague(BaseMediator mediator) : base(mediator)
         {
         }
 

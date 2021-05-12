@@ -1,10 +1,10 @@
 namespace DesignPatterns.Mediator
 {
-    public abstract class Colleague
+    public abstract class BaseColleague
     {
-        private readonly Mediator _mediator;
+        private readonly BaseMediator _mediator;
  
-        protected Colleague(Mediator mediator)
+        protected BaseColleague(BaseMediator mediator)
         {
             _mediator = mediator;
         }

@@ -1,5 +1,3 @@
-using System;
-
 namespace DesignPatterns.Decorator
 {
     public abstract class BaseCondiment : BaseBeverage
