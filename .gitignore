@@ -1,5 +1,7 @@
 
 /.idea/
+/DesignPatterns/bin/
+/DesignPatterns/obj/
 /BuildPatterns/bin/
 /BuildPatterns/obj/
 /PatternTests/bin/
